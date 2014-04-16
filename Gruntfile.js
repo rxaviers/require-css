@@ -22,14 +22,15 @@ module.exports = function(grunt) {
         optimize: "none",
         optimizeCss: "none",
         separateCSS: true,
-        stubModules : ["require-css"],
+        pragmasOnSave: {
+          excludeRequireCss: true
+        }
       },
       dist: {
         options: {
           modules: [{
             name: "app",
-            include: ["almond", "app"],
-            exclude: ["require-css/normalize"]
+            include: ["almond", "app"]
           }]
         }
       }
