@@ -1,6 +1,6 @@
 define([
   "jquery",
-  "css!./a.css"
+  "css!./a"
 ], function($) {
 
   $(".a").html("Component A");
