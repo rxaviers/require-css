@@ -1,0 +1,9 @@
+{
+  "name": "require-css-example",
+  "devDependencies": {
+    "almond": "0.2.9",
+    "jquery": "1.x.x",
+    "require-css": "0.1.2",
+    "requirejs": "2.1.x"
+  }
+}

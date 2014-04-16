@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-copy": "0.4.x",
+    "grunt-contrib-requirejs": "0.4.x",
+    "matchdep": "*"
+  }
+}
